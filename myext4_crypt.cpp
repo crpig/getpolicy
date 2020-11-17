@@ -25,9 +25,11 @@
 #include <string.h>
 #include <sys/syscall.h>
 #include <sys/stat.h>
+#include <sys/ioctl.h>
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <memory>
 
 
 // ext4enc:TODO Include structure from somewhere sensible
